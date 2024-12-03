@@ -44,7 +44,7 @@ def export_to_json(input_file, output_file):
     return timestamp
 
 if __name__ == "__main__":
-    input_file = 'temporal_mds/BoiaBarcelona_System.dat'
+    input_file = 'temporal_mds/BoiaBarcelona_Doppler.dat'
     
     # Call the function and get the timestamp
     timestamp = export_to_json(input_file, 'temp.json')
@@ -55,9 +55,9 @@ if __name__ == "__main__":
     year_month = date_obj.strftime('%Y-%m')
     
     # Define the output directory and file name
-    output_dir = 'Somorrostro/System'
+    output_dir = 'Somorrostro/Doppler'
     os.makedirs(output_dir, exist_ok=True)  # Create the directory if it doesn't exist
-    output_file = os.path.join(output_dir, f'System_{year_month}.json')
+    output_file = os.path.join(output_dir, f'Doppler_{year_month}.json')
     
     # Call the function again to export the data to the correct file
     export_to_json(input_file, output_file)
