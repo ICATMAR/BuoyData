@@ -1,0 +1,67 @@
+{
+    "Sami":
+        {
+            "TIMESTAMP": ["Date and Time", "YYYY-MM-DD hh:mm:ss"],
+            "SamiData": ":5:70A :17AE70AE3655E531B651AB41377238214921AAF136F237114901AA8136B2367147F1AB4136C2372148D1AB013722370148B1AB00FCD237014721AA407F2236E140E1ABC017A237B128D1AB500EA237011AE1AAC014B236C12321AAC0278236913021ABA0442237513991AB50689237013ED1AAA08CF236F142E1AB50ADE236B144B1AB60CA3236C14701AA40DF9236A14711AB80F1C236E147F1AB01005236B147D1AA810B6236D147D1AB311572370148C1AAE11CF236A14871AB6122D236B14871AAC1279236C14861AB112AC237C14891AA712D8235E14811AB612F92374148B3D433DF91B6CC9  ",
+            "SamiMessage": ":5:70A :17AE70AE3655E531B651AB41377238214921AAF136F237114901AA8136B2367147F1AB4136C2372148D1AB013722370148B1AB00FCD237014721AA407F2236E140E1ABC017A237B128D1AB500EA237011AE1AAC014B236C12321AAC0278236913021ABA0442237513991AB50689237013ED1AAA08CF236F142E1AB50ADE236B144B1AB60CA3236C14701AA40DF9236A14711AB80F1C236E147F1AB01005236B147D1AA810B6236D147D1AB311572370148C1AAE11CF236A14871AB6122D236B14871AAC1279236C14861AB112AC237C14891AA712D8235E14811AB612F92374148B3D433DF91B6CC9  ",
+            "SamiNBlank": "3"
+        },
+
+    "SBE37_SMPO":
+        {
+            "TIMESTAMP":  ["Date and Time", "YYYY-MM-DD hh:mm:ss"],
+            "SBE37Sn":  ["Serial Number (Sensor ID)", ""],
+            "SBE37Temp":  ["Water Temperature", "Degrees Celsius (°C)"],
+            "SBE37Cond": ["Water Conductivity", "Siemens/metre (S/m)"],
+            "SBE37Pres": ["Pressure", "Decibar (dbar)"],
+            "SBE37OXY": ["Dissolved Oxygen", "mL/L"],
+            "SBE37Sal": ["Salinity", "Practical Salinity Unit (PSU)"]
+        },
+
+    "Doppler":
+        {
+            "TIMESTAMP": ["Date and Time", "YYYY-MM-DD hh:mm:ss"],
+            "DoppVolts": ["Input Voltage of the Instrument", "V"],
+            "DoppSoundSpeed": ["Water Sound Speed", "m/s"],
+            "DoppHeading": ["Centric Rotation", "Degrees (°)"],
+            "DoppPitch": ["Lateral Rotation", "Degrees (°)"],
+            "DoppRoll": ["Lateral Rotation", "Degrees (°)"],
+            "DoppPress": ["Water Pressure", "Decibar (dbar)"],
+            "DoppTemp": ["Water Temperature", "Celsius"],
+            "DoppCell(x)": ["Current Velocity   Current Direction", "mm/s  Degrees"]
+        },
+
+    "Meteo": 
+        {
+            "TIMESTAMP": ["Date and Time", "YYYY-MM-DD hh:mm:ss"],
+            "Latitude": ["", "Degrees (°) (+N, -S)"],
+            "Longitude": ["", "Degrees (°) (+E, -W)"],
+            "HASL": ["Height Above Mean Sea Level", "meters"],
+            "Rel_WindDir": ["Relative Wind Direction", "Degrees (°)"],
+            "Corr_WindDir": ["Corrected Wind Direction", "Dregrees (°)"],
+            "Corr_WindS": ["Corrected Wind Speed", "m/s"],
+            "WindDir_True": ["Wind Direction Corrected by Magnetic Declination", "Degrees (°)"],
+            "Rel_WS": ["Relative Wind Speed", "m/s"],
+            "BP": ["Barometric Pressure", "Hectopascals (hPa)"],
+            "RH": ["Relative Humidity", "Percentage (%)"],
+            "AirTemp": ["Air Temperature", "Degrees Celsius (°C)"],
+            "DP": ["Dewpoint (punto de rocío)", "Degrees Celsius (°C)"],
+            "AD": ["Air Density", "Kilograms per metre cubed (kgm-3)"],
+            "WBT": ["Wet Bulb Temperature (parcel de aire enfriada hasta la satuación por evaporación)",
+             "Degrees Celsius (°C)]"]
+        },
+
+    "System":
+        {
+            "TIMESTAMP": ["Date and Time", "YYYY-MM-DD hh:mm:ss"],
+            "PTemp":  ["Panel Temperature (temperatura interna Datalogger", "Degrees (°C)"],
+            "Datalogg_Batt":  ["", "Voltage"],
+            "Batt_Volt":  ["", "Voltage"],
+            "Solar_Voltage": ["", "Voltage"],
+            "System_Current": ["", "Amps"],
+            "CTD_PwrOff": ["ON/OFF", "1/0"],
+            "ADP_PwrOff": ["ON/OFF", "1/0"],
+            "SAMI_PwrOff": ["ON/OFF", "1/0"],
+            "Meteo_PwrOff": ["ON/OFF", "1/0"]
+        }
+    }       
